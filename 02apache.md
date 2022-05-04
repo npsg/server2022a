@@ -1,7 +1,7 @@
 # ApacheHTTPサーバー構築
 ## インストール前の確認
 
-```sh
+```bash
 rpm -q httpd
 パッケージ httpd はインストールされていません。
 ```
