@@ -1,6 +1,6 @@
-#SQL練習
+# SQL練習
 
-##会議室予約システムのテーブル
+## 会議室予約システムのテーブル
 ```SQL
 -- 時間帯情報
 create table m_time (
@@ -38,7 +38,7 @@ create table m_employee (
 ) ;
 ```
 
-##サンプデータ
+## サンプルデータ
 ```SQL
 --従業員情報
 INSERT INTO m_employee(emp_no, password, department, emp_name, default_tel)
