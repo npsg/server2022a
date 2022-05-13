@@ -56,3 +56,7 @@ select e.emp_no 従業員番号, e.emp_name 従業員氏名, ifnull(r.cnt,0) 予
 from m_employee e left outer join (select emp_no, count(*) cnt from t_reserve group by emp_no) r using(emp_no) 
 order by emp_no;
 ```
+こちらのほうがエクセレントです。
+```sql
+select x.emp_no, x.emp_name, count(y.emp_no) from m_employee x left join t_reserve y using(emp_no) group by emp_no, emp_name;
+```
