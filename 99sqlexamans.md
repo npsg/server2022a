@@ -58,5 +58,6 @@ order by emp_no;
 ```
 こちらのほうがエクセレントです。
 ```sql
-select x.emp_no, x.emp_name, count(y.emp_no) from m_employee x left join t_reserve y using(emp_no) group by emp_no, emp_name;
+select x.emp_no, x.emp_name, count(y.emp_no)
+ from m_employee x left join t_reserve y using(emp_no) group by emp_no, emp_name;
 ```
