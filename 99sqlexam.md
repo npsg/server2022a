@@ -85,3 +85,8 @@ INSERT INTO t_reserve(reserve_date, time_cd, room_cd, emp_no, tel, purpose)
  ,('2022/07/01', 3, 1, '10000003', '09011112222', 'X社打ち合わせ')
  ,('2022/07/01', 4, 1, '10000003', '99999999999', '資料作成作業');
 ```
+
+## 復号して表示
+```SQL
+select emp_no, AES_DECRYPT(password, SHA2('tebasaki',512)), department, emp_name, default_tel from m_employee;
+```
