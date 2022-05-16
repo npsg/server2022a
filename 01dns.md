@@ -131,13 +131,14 @@ systemctl reload named
 - 再起動（必要ないが）
 systemctl restart named
 - 名前解決確認
+```
 nslookup www.example.jp 192.168.64.3
 Server:		192.168.64.3
 Address:	192.168.64.3#53
 
 Name:	www.example.jp
 Address: 192.168.64.3
-
+```
 > nslookupがない場合  
 yum install bind-utils  
 もしくは　yum groupinstall base
