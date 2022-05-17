@@ -64,6 +64,7 @@ SELINUXTYPE=targeted
  </ディレクティブ>
 ### コメント
  #以降をコメントとして扱う
+https://onoredekaiketsu.com/apache-error-fully-qualified-domain-name/
 
 ## 代表的なディレクティブ
 - ServerRoot ディレクティブ：各種ディレクトリの基点となるディレクトリ  
