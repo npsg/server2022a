@@ -100,10 +100,11 @@ Require all granted
 > yum install mod_ssl
 ```
 ### /etc/httpd/conf.d/ssl.conf ファイルを確認
+```
 SSLEngine on  
 SSLCertificateFile /etc/pki/tls/certs/localhost.crt  
 SSLCertificateKeyFile /etc/pki/tls/private/localhost.key  
-
+```
 ## 証明書要求の作成
 ### /etc/pki/tls/openssl.cnf ファイルを編集
 - コメントを外す  
