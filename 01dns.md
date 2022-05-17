@@ -72,6 +72,7 @@ options {
         recursing-file  "/var/named/data/named.recursing";
         secroots-file   "/var/named/data/named.secroots";
         allow-query     { any; };
+…中略
 ```
 ```
 zone "example.jp" IN {
@@ -115,6 +116,9 @@ $TTL 3H
 ns      A       192.168.64.3
 www     A       192.168.64.3                              
 ```
+>** 逆引きについて 
+https://atmarkit.itmedia.co.jp/fnetwork/dnstips/016.html
+
 ## named.conf文法チェック  
 ```
 named-checkconf 
