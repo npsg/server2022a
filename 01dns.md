@@ -106,15 +106,15 @@ https://atmarkit.itmedia.co.jp/fnetwork/dnstips/014.html
 /var/namedにあるnamed.emptyをコピーして、rev.zoneを作成
 ```
 $TTL 3H
-@       IN SOA  ns.example.jp. nsadmin.example.jp. (
-                                        2022050401      ; serial
-                                        1D      ; refresh
-                                        1H      ; retry
-                                        1W      ; expire
-                                        3H )    ; minimum
-        NS      ns
-ns      A       192.168.64.3
-www     A       192.168.64.3                              
+@	IN SOA	ns.example.jp. nsadmin.example.jp. (
+					2022050401	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+	NS	ns.example.jp.
+100	PTR	ns.example.jp.
+200	PTR	www.example.jp.                            
 ```
 >**逆引きについて**  
 https://atmarkit.itmedia.co.jp/fnetwork/dnstips/016.html  
