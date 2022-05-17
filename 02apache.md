@@ -63,7 +63,9 @@ SELINUXTYPE=targeted
  <ディレクティブ 対象>  
  </ディレクティブ>
 ### コメント
- #以降をコメントとして扱う
+ #以降をコメントとして扱う  
+ 
+（補足）　　
 https://onoredekaiketsu.com/apache-error-fully-qualified-domain-name/
 
 ## 代表的なディレクティブ
