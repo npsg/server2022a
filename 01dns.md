@@ -117,7 +117,8 @@ ns      A       192.168.64.3
 www     A       192.168.64.3                              
 ```
 >**逆引きについて**  
-https://atmarkit.itmedia.co.jp/fnetwork/dnstips/016.html
+https://atmarkit.itmedia.co.jp/fnetwork/dnstips/016.html  
+
 >**逆引きって、どんな時に使いますか**   
 https://atmarkit.itmedia.co.jp/ait/articles/1503/20/news009.html
 
