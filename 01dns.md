@@ -116,7 +116,7 @@ $TTL 3H
 ns      A       192.168.64.3
 www     A       192.168.64.3                              
 ```
->** 逆引きについて 
+>** 逆引きについて  
 https://atmarkit.itmedia.co.jp/fnetwork/dnstips/016.html
 
 ## named.conf文法チェック  
