@@ -156,6 +156,9 @@ An optional company name []:
 Request is in newreq.pem, private key is in newkey.pem
 ```
 ### 生成できているか確認する
+- ./newreq.pem　サーバー証明書の作成に使用するCSR
+- ./newkey.pem　サーバー秘密鍵
+
 ```
 > openssl req -in newreq.pem -text
 Certificate Request:
