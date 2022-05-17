@@ -212,8 +212,7 @@ copy_extensions = copy
 Enter SSL pass phrase for localhost.localdomain:443 (RSA) : ********
 > systemctl status httpd
 ```
-
-https://192.168.64.3でアクセスできる
+「https」でアクセスしてみる。
 
 ## 特定のパスへのアクセスに HTTPS 接続を強制
 /etc/httpd/conf.d/rewite.conf を編集
