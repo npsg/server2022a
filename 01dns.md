@@ -99,7 +99,7 @@ $TTL 3H
 ns      A       192.168.64.3
 www     A       192.168.64.3
 ```
->**ゾーンファイルの中身**
+>**ゾーンファイルの中身**  
 https://atmarkit.itmedia.co.jp/fnetwork/dnstips/014.html
 
 ## 逆引きゾーンファイルを編集する  
@@ -116,9 +116,9 @@ $TTL 3H
 ns      A       192.168.64.3
 www     A       192.168.64.3                              
 ```
->**逆引きについて** 
+>**逆引きについて**  
 https://atmarkit.itmedia.co.jp/fnetwork/dnstips/016.html
->**逆引きって、どんな時に使いますか** 
+>**逆引きって、どんな時に使いますか**   
 https://atmarkit.itmedia.co.jp/ait/articles/1503/20/news009.html
 
 ## named.conf文法チェック  
