@@ -166,9 +166,11 @@ Certificate Request:
 ```
 
 ### /etc/httpd/conf.d/ssl.conf ファイルを編集
+```
 SSLEngine on  
 SSLCertificateFile /etc/pki/tls/misc/newcert.pem
 SSLCertificateKeyFile /etc/pki/tls/misc/newkey.pem  
+```
 
 ### 秘密鍵からパスフレーズを抜き、Apacheの再起動などのときにパスワードを入力しなくてもよくなる
 openssl rsa -in newkey.pem -out newkey_nopass.pem
