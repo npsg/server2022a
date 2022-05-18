@@ -107,3 +107,11 @@ chmod -R 777 /var/www/sample/bootstrap/cache
 chmod -R 777 /var/www/sample/storage
 ```
 5. ブラウザからアクセスする
+
+## 補足：laravelを使っている場合のIP制限（例．192.168.64.3はCentOSのIP）
+```
+<Directory "/var/www/sample/public" >
+    AllowOverride All
+    Require ip 192.168.64.3
+</Directory>
+```
