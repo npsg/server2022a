@@ -185,6 +185,9 @@ openssl rsa -in newkey.pem -out newkey_nopass.pem
 > 証明書要求と認証局の関係  
 > https://www.infraexpert.com/study/security6.html
 
+https://lifework.hatenablog.com/entry/2017/03/01/000623
+
+
 ## プライベート認証局を利用
 ### /etc/pki/tls/openssl.cnf の設定
 ```Apache
