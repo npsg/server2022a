@@ -109,9 +109,18 @@ chmod -R 777 /var/www/sample/storage
 5. ブラウザからアクセスする
 
 ## 補足：laravelを使っている場合のIP制限（例．192.168.64.3はCentOSのIP）
+- /etc/httpd/conf/httpd.confを編集
+  - Require が重複しないように注意
 ```
 <Directory "/var/www/sample/public" >
     AllowOverride All
     Require ip 192.168.64.3
 </Directory>
+```
+- 403だとテストページが開いてしまうので、/etc/httpd/conf.d/welcome.confを編集し、コメントにする
+```
+<LocationMatch "^/+$">
+#    Options -Indexes
+#    ErrorDocument 403 /.noindex.html
+</LocationMatch>
 ```
