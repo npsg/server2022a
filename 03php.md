@@ -52,6 +52,10 @@ mbstring.language = Japanese
 ```
 > curl https://getcomposer.org/installer | php
 ```
+composer.pharをコマンドで利用できるように移動
+```
+> mv composer.phar /usr/local/bin/composer
+```
 ## Laravel プロジェクトの生成
 ```
 > cd /var/www
