@@ -1,4 +1,4 @@
-#　PHP・Laravelインストール
+# PHP・Laravelインストール
 ## Remi リポジトリを利用するためには、先に EPEL リポジトリを使えるようにする
 ```
 yum install epel-release
