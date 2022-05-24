@@ -50,7 +50,7 @@ empty-zones-enable no;
 ```
 ## /etc/sysconfig/namedの末尾に追加
 ```
-OPTION="-4"
+OPTIONS="-4"
 ```
 
 ```
